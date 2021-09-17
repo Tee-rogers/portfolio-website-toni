@@ -4,35 +4,15 @@ beige- #BCB8B1
 dark sand-#8A817C
 dark brown- #473F3A
 black- #000000    */
-header {background-color:#F4F3ED;
-  padding: 10px;
-  margin: auto 10px;
-  text-align: center;
-  position: fixed;
-  width: 100%
-   }
-/* Layout Styling */
-.container {padding: 0 15px}
-.row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
-}
-.logo {max-width: 250px;}
-nav ul li {
-  padding: 0 15px;
-  display: inline-block;
-  list-style-type: none;
-  padding: 0;
-}
-#hero {
-  background-color: #ffffff;
-}
-#hero h1 {
-  margin: 0;
-  padding: 0.67em 0;
-}
-main {
-  padding-top: 250px;
-}
+
+
+
+
+
+
+
+
+
 
 
 
