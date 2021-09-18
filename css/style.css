@@ -4,135 +4,221 @@ beige- #BCB8B1
 dark sand-#8A817C
 dark brown- #473F3A
 black- #000000    */
-header {background-color:#F4F3ED;
-  padding: 10px;
-  margin: auto 10px;
-  text-align: center;
-  position: fixed;
-  width: 100%
-   }
-/* Layout Styling */
-.container {padding: 0 15px}
-.row {
-  margin: 25px 0; /* 25px top and bottom, 0 left and right */
+body {
+	font-family: 'Montserrat', serif;
+	font-size: 16px;
 }
-.logo {max-width: 250px;}
+
+h1,
+h2,
+h3,
+h4 {
+	font-family: 'Sura', serif;
+}
+
+h1,
+h2 {
+	font-size: 2.75em;
+}
+
+h3,
+h4 {
+	font-size: 1em;
+}
+
+header {
+	background-color: #f4f3ed;
+	padding: 10px;
+	margin: auto;
+	text-align: center;
+	position: fixed;
+	width: 100%;
+}
+/* Layout Styling */
+.container {
+	padding: 0 15px;
+}
+.row {
+	margin: 25px 0; /* 25px top and bottom, 0 left and right */
+}
+.logo {
+	max-width: 250px;
+}
+.profilePic {
+	width: 50px;
+}
 nav ul li {
-  padding: 0 15px;
-  display: inline-block;
-  list-style-type: none;
-  padding: 0;
+	padding: 0 15px;
+	display: inline-block;
+	list-style-type: none;
+	padding: 0;
 }
 #hero {
-  background-color: #ffffff;
+	background-color: #ffffff;
 }
 #hero h1 {
-  margin: 0;
-  padding: 0.67em 0;
+	margin: 0;
+	padding: 0.67em 0;
 }
 main {
-  padding-top: 250px;
+	padding-top: 250px;
 }
-
-
-
-
-
-
-
-
-
-
-
-
 
 /* Buttons */
 .button.work {
-  background-color: #E0AFA0;
-  color: #ffffff;
-  border: 4px solid #E0AFA0;
-  text-decoration: none;}
-.button.work:hover {color: #ffffff;
-  background-color:#E2876B;
-  border: 4px solid #E2876B;}
-  .button.work:active {color: #ffffff;
-    background-color:#E2876B;
-    border: 4px solid #E2876B;}
+	background-color: #e0afa0;
+	color: #ffffff;
+	border: 4px solid #e0afa0;
+	text-decoration: none;
+}
+.button.work:hover {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
+.button.work:active {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
 .button.about {
-  background-color:#E0AFA0;
-  color: #ffffff;
-  border: 4px solid #E0AFA0;
-  text-decoration: none;}
-.button.aboout:hover {color: #ffffff;
-  background-color:#E2876B;
-  border: 4px solid #E2876B;}
-  .button.about:active {color: #ffffff;
-    background-color:#E2876B;
-    border: 4px solid #E2876B;}
+	background-color: #e0afa0;
+	color: #ffffff;
+	border: 4px solid #e0afa0;
+	text-decoration: none;
+}
+.button.aboout:hover {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
+.button.about:active {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
 .button.contact {
-  background-color:#E0AFA0;
-  color: #ffffff;
-  border: 4px solid #E0AFA0;
-  text-decoration: none;}
-.button.contact:hover {color: #ffffff;
-  background-color:#E2876B;
-  border: 4px solid #E2876B;}
-  .button.contact:active {color: #ffffff;
-    background-color:#E2876B;
-    border: 4px solid #E2876B;}
+	background-color: #e0afa0;
+	color: #ffffff;
+	border: 4px solid #e0afa0;
+	text-decoration: none;
+}
+.button.contact:hover {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
+.button.contact:active {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
 .button.stack {
-  background-color:#E0AFA0;
-  color: #ffffff;
-  border: 4px solid #E0AFA0;
-  text-decoration: none;}
-.button.stack:hover {color: #ffffff;
-  background-color:#E2876B;
-  border: 4px solid #E2876B;}
-  .button.stack:active {color: #ffffff;
-    background-color:#E2876B;
-    border: 4px solid #E2876B;}
+	background-color: #e0afa0;
+	color: #ffffff;
+	border: 4px solid #e0afa0;
+	text-decoration: none;
+}
+.button.stack:hover {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
+.button.stack:active {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
 .button.denovo {
-  background-color:#E0AFA0;
-  color: #ffffff;
-  border: 4px solid #E0AFA0;
-  text-decoration: none;}
-.button.denovo:hover {color: #ffffff;
-  background-color:#E2876B;
-  border: 4px solid #E2876B;}
-  .button.denovo:active {color: #ffffff;
-    background-color:#E2876B;
-    border: 4px solid #E2876B;}
+	background-color: #e0afa0;
+	color: #ffffff;
+	border: 4px solid #e0afa0;
+	text-decoration: none;
+}
+.button.denovo:hover {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
+.button.denovo:active {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
 .button.trash {
-  background-color:#E0AFA0;
-  color: #ffffff;
-  border: 4px solid #E0AFA0;
-  text-decoration: none;}
-.button.trash:hover {color: #ffffff;
-  background-color:#E2876B;
-  border: 4px solid #E2876B;}
-.button.trash:active {color: #ffffff;
-    background-color:#E2876B;
-    border: 4px solid #E2876B;}
+	background-color: #e0afa0;
+	color: #ffffff;
+	border: 4px solid #e0afa0;
+	text-decoration: none;
+}
+.button.trash:hover {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
+.button.trash:active {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
 .button.resume {
-      background-color:#E0AFA0;
-      color: #ffffff;
-      border: 4px solid #E0AFA0;
-      text-decoration: none;}
-.button.resume:hover {color: #ffffff;
-      background-color:#E2876B;
-      border: 4px solid #E2876B;}
-.button.resume:active {color: #ffffff;
-        background-color:#E2876B;
-        border: 4px solid #E2876B;}
-.button.email {background-color:#000000;
-color: #ffffff;
-border: 4px solid #000000;
-text-decoration: none;}
-.button.email:hover {background-color:#E2876B;
-color: #ffffff;
-border: 4px solid #E2876B;
-text-decoration: none;}
-.button.email:active {background-color:#E2876B;
-color: #ffffff;
-border: 4px solid #E2876B;
-text-decoration: none;}
+	background-color: #e0afa0;
+	color: #ffffff;
+	border: 4px solid #e0afa0;
+	text-decoration: none;
+}
+.button.resume:hover {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
+.button.resume:active {
+	color: #ffffff;
+	background-color: #e2876b;
+	border: 4px solid #e2876b;
+}
+.button.email {
+	background-color: #000000;
+	color: #ffffff;
+	border: 4px solid #000000;
+	text-decoration: none;
+}
+.button.email:hover {
+	background-color: #e2876b;
+	color: #ffffff;
+	border: 4px solid #e2876b;
+	text-decoration: none;
+}
+.button.email:active {
+	background-color: #e2876b;
+	color: #ffffff;
+	border: 4px solid #e2876b;
+	text-decoration: none;
+}
+
+.email-wrapper,
+.linkedin-wrapper {
+	display: flex;
+	align-items: center;
+}
+.email-icon img,
+.linkedin-icon img {
+	width: 30px;
+}
+.email-icon,
+.linkedin-icon {
+	margin-right: 5px;
+}
+
+#footer .side-by-side {
+	display: flex;
+	justify-content: center;
+}
+
+.side-by-side > div {
+	margin-left: 40px;
+}
+
+footer {
+	margin-bottom: 100px;
+}
