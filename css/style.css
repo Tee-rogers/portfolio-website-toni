@@ -72,7 +72,21 @@ nav ul li {
 main {
 	padding-top: 250px;
 }
+/*Animation tings*/
+.ENTIRE.HEAD {animation: rotate 4s infinite alternate;
+	transform-origin: bottom;
 
+}
+	@keyframes rotate {
+		10% {
+			transform:rotate(0deg);
+		}
+   20% {transform:rotate(1deg);
+			}
+			100% {transform:rotate(-1deg);
+			}
+
+	}
 /* Buttons */
 .button.work {
 	background-color: #e0afa0;
