@@ -73,20 +73,23 @@ main {
 	padding-top: 250px;
 }
 /*Animation tings*/
-.ENTIRE.HEAD {animation: rotate 4s infinite alternate;
-	transform-origin: bottom;
+.FROSKII {animation: rotate 2s infinite alternate;
+	transform-origin: center;
 
 }
 	@keyframes rotate {
-		10% {
-			transform:rotate(0deg);
-		}
-   20% {transform:rotate(1deg);
-			}
-			100% {transform:rotate(-1deg);
-			}
-
+	100%{transform:rotate(-2deg);
 	}
+}
+
+.SHOE {animation: shoe-rotate 1s infinite alternate;
+	transform-origin: center;
+
+}
+	@keyframes shoe-rotate {
+		0%{transform:rotate(1deg);
+
+}
 /* Buttons */
 .button.work {
 	background-color: #e0afa0;
