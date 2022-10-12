@@ -34,6 +34,25 @@ header {
 	display: flex;
 	justify-content: space-between;
 }
+.tools-section{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+.icons-group{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
+.cs-icon, .ps-icon, .ai-icon, .ht-icon, .il-icon, .figma-icon, .sketch-icon, .xd-icon, .pro-icon {
+	margin-left: 8px;
+	margin-left: 8px;
+}
+.skills-section{
+	margin: auto;
+	width: 100%;
+	text-align: center;
+}
 .my-story-paragraph{
 	margin-left: 40px;
 	margin-right: 40px;
