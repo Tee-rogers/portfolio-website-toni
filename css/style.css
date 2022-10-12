@@ -31,6 +31,12 @@ header {
 	text-align: center;
 	position: fixed;
 	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.my-story-paragraph{
+	margin-left: 40px;
+	margin-right: 40px;
 }
 /* Layout Styling */
 .container {
@@ -51,8 +57,10 @@ display: table;
 .logo {
 	max-width: 250px;
 }
-.profilepic {
-	width: 15px;
+.profile-pic {
+	width: 100px;
+	height: 100px;
+	margin-left: 16px;
 }
 nav ul li {
 	padding: 0 15px;
@@ -173,35 +181,35 @@ main {
 	background-color: #e2876b;
 	border: 4px solid #e2876b;
 }
-.button.resume {
+.button-resume {
 	background-color: #e0afa0;
 	color: #ffffff;
 	border: 4px solid #e0afa0;
 	text-decoration: none;
 }
-.button.resume:hover {
+.button-resume:hover {
 	color: #ffffff;
 	background-color: #e2876b;
 	border: 4px solid #e2876b;
 }
-.button.resume:active {
+.button-resume:active {
 	color: #ffffff;
 	background-color: #e2876b;
 	border: 4px solid #e2876b;
 }
-.button.email {
+.button-email {
 	background-color: #000000;
 	color: #ffffff;
 	border: 4px solid #000000;
 	text-decoration: none;
 }
-.button.email:hover {
+.button-email:hover {
 	background-color: #e2876b;
 	color: #ffffff;
 	border: 4px solid #e2876b;
 	text-decoration: none;
 }
-.button.email:active {
+.button-email:active {
 	background-color: #e2876b;
 	color: #ffffff;
 	border: 4px solid #e2876b;
@@ -229,17 +237,14 @@ main {
 .row p{
 	width: auto;
 }
-.email-wrapper,
-.linkedin-wrapper {
+.email-wrapper, .linkedin-wrapper {
 	display: flex;
 	align-items: center;
 }
-.email-icon img,
-.linkedin-icon img {
+.email-icon img,.linkedin-icon img {
 	width: 30px;
 }
-.email-icon,
-.linkedin-icon {
+.email-icon, .linkedin-icon {
 	margin-right: 5px;
 }
 
@@ -280,7 +285,7 @@ footer {
 Medium devices (640px and larger)
 ================================= */
 @media only screen and (min-width: 640px)
-{header {
+header{
   text-align: unset;
   padding: 20px 0 13px;
 }
@@ -291,7 +296,7 @@ nav {
   margin-right: 16px;
 }
 main {padding-top: 99px;}
-}
+
 .logo {
 	max-width: 50px;
 	margin-left: 16px;
